@@ -1,0 +1,56 @@
+#bdy {
+    background-color: burlywood;
+    text-align: center;
+    margin: 20px;
+}
+
+#head_Main {
+    color: darkgoldenrod;
+    font-family: cursive;
+}
+
+.Header3 {
+    color: darkorange;
+}
+
+#myCarousel {
+    background-color: bisque;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 30px;
+}
+
+#myCarousel p {
+    color: firebrick;
+    font-size: 40px;
+}
+
+.MainMenu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.ListMenu {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.row img {
+    height: 300px;
+    width: 300px;
+    padding: 3px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: darkgoldenrod;
+}

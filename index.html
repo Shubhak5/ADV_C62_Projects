@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body id="bdy">
+    <h1 id="head_Main"> Photo Gallery</h1>
+    <div class="container">
+        <ul class="MainMenu">
+            <li class="ListMenu"> <a href="#Home">Home</a></li>
+            <li class="ListMenu"> <a href="#Grid">Grid View</a></li>
+            <li class="ListMenu"> <a href="#Slide">slide View</a></li>
+        </ul>
+        <section id="Home">
+            <h3 class="Header3"> Home </h3> </section>
+        <section id="Grid">
+            <h3 class="Header3"> Grid Gallery </h3>
+            <div class="row"> <img src="carousel_div.jpg"> <img src="https://5.imimg.com/data5/VW/BH/XM/SELLER-15823854/tulip-bulbs-500x500.jpg"> <img src="https://rukminim1.flixcart.com/image/416/416/plant-seed/2/x/q/saaheli-20-rose-blue-dragon-original-imaebz8yzfyznnxs.jpeg?q=70"> <img src="https://images-na.ssl-images-amazon.com/images/I/41S-8RiKP0L._SX466_.jpg"> <img src="https://agroproducts.files.wordpress.com/2013/08/jasmine-flower.jpg?w=584"></div>
+        </section>
+        <section id="Slide">
+            <h3 class="Header3"> Sliding Gallery </h3>
+            <center>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center><img src="https://5.imimg.com/data5/VW/BH/XM/SELLER-15823854/tulip-bulbs-500x500.jpg" class="img-responsive">
+                                <div class="carousel-content">
+                                    <p> Tulip</p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center> <img src="https://images-na.ssl-images-amazon.com/images/I/41S-8RiKP0L._SX466_.jpg" class="img-responsive">
+                                <div class="carousel-content">
+                                    <p> Jasmine</p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Prev</span></a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+                </div>
+            </center>
+        </section>
+    </div>
+</body>
+
+</html>
